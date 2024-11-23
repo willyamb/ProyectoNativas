@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background_gradient_login"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:id="@+id/logoHBHome"
+        android:layout_width="233dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="112dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/inicio" />
+
+    <Button
+        android:id="@+id/buttonAsk"
+        android:layout_width="239dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_border_cwhite"
+        android:fontFamily="@font/montserrat_bold"
+        android:singleLine="false"
+        android:text="Bienvenido"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoHBHome"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <FrameLayout
+        android:layout_width="182dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/shape_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_animation2"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginBottom="384dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/spincircle" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

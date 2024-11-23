@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "268014156304",
+    "project_id": "distrimascotapp-e0555",
+    "storage_bucket": "distrimascotapp-e0555.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268014156304:android:ff771060c4a054d981a895",
+        "android_client_info": {
+          "package_name": "com.example.distrimascotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268014156304-e8h2g4s76lrb8n9p4ch8012r6cab7850.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.distrimascotapp",
+            "certificate_hash": "b6693035f9b722587a43a2c550ccca71c7533996"
+          }
+        },
+        {
+          "client_id": "268014156304-2d3qf9hddbirkacl9epp4rs6fmo7h517.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGHxdHB0bVedWk7dyLFyu8hTFoe2LH4dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268014156304-2d3qf9hddbirkacl9epp4rs6fmo7h517.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
